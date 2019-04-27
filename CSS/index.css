@@ -1,0 +1,47 @@
+.game{
+ width:200px;
+ height:400px;
+ background-color: #F2FAFF;
+ border-left:1px solid blue;
+ border-right:1px solid blue;
+ border-bottom:1px solid blue;
+ position:absolute;
+ top:40px;
+ left:10px;
+}
+/* 右小方块 */
+.next{
+    width:80px;
+    height:80px;
+    background-color: #F2FAFF;
+    border:1px solid blue;
+    position:absolute;
+    top:40px;
+    left:250px;
+}
+/* 右计时器 */
+.info{
+    position:absolute;
+    top:120px;
+    left:250px;
+}
+/* 游戏小方块 */
+.none,.current,.done{
+    width:20px;
+    height:20px;
+    position:absolute;
+    box-sizing:border-box;
+}
+.none{
+    background-color:#F2FAFF;
+}
+/* 用户操作的方块 */
+.current{
+    background-color:pink;
+    border:1px solid red;
+}
+/* 落下的方块 */
+.done{
+    background-color:gray;
+    border:1px solid black;
+}
